@@ -22,7 +22,7 @@
       @endif
         <div class="row">
           @foreach ($produk as $p)
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-3 mb-4">
               <div class="card" >
                 <img src="{{Storage::url($p->file)}}" class="card-img-top" alt="..." style="max-height: 500px">
                 <div class="card-body">
